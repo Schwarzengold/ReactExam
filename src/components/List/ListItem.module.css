@@ -1,0 +1,100 @@
+.img {
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.li {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: larger;
+  font-weight: 600;
+  padding-left: 20px;
+  color: rgb(83, 0, 81);
+  border-radius: 3px;
+  border: 0px solid;
+  box-shadow: 3px 4px rgba(0, 0, 0, 0.17);
+}
+
+.li-done span {
+  text-decoration: line-through;
+  color: #d23e3e;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.highPriority {
+  color: rgb(221, 60, 60); 
+  font-weight: bold;
+}
+
+.lowPriority {
+  font-weight: bold;
+  color: rgb(57, 175, 53); 
+}
+
+.date {
+  margin-left: 20px;
+  margin-right: 10px; 
+}
+
+.button1 {
+  
+  font-size: 13px;
+  background-color: #71baff;
+  font-weight: 500;
+  border: #9963f0;
+  padding: 8px 6px; 
+  box-shadow: 1px 4px 8px 0 rgba(0,0,0,0.13);
+  text-transform: uppercase;
+  width: 70px;
+}
+
+.button1:hover {
+  background-image: linear-gradient(to right, rgb(47, 96, 255) 0%, rgb(107, 124, 221) 39%, rgb(71, 157, 255) 100%);
+  box-shadow: 3px 4px rgba(0,0,0,0.17);
+}
+
+.customdiv{
+  background-image: linear-gradient(to right, rgb(219, 230, 255) 0%,  rgb(219, 220, 255) 100%);
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.192);
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 40px;
+}
+
+.button1:active {
+  box-shadow: 1px 2px rgba(2, 93, 153, 0.596);
+  transform: translateX(1px) translatey(1px);
+}
+
+.input1 {
+  width: 70px;
+  margin-right: 12px;
+  background-image: linear-gradient(to right, rgb(219, 230, 255) 0%,  rgb(219, 220, 255) 100%);
+  box-shadow: 2px 3px rgba(0, 0, 0, 0.103);
+  border-color: rgba(194, 170, 193, 0.603);
+  font-size: 13px;
+}
+
+.input {
+  background-image: linear-gradient(to right, rgb(241, 251, 255) 0%,  rgb(239, 238, 255) 100%);
+  box-shadow: 2px 3px rgba(0, 0, 0, 0.103);
+  border-color: rgba(194, 170, 193, 0.603);
+  width: 92%; 
+}
+
+.input:focus{
+  background-image: linear-gradient(to right, rgb(99, 2, 95) 0%, rgba(245,24,142,1) 39%, rgba(255,120,71,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  box-shadow: 3px 4px rgba(255, 62, 104, 0.781);
+  border-color: #fd73a1;
+  font-weight: 500;
+}

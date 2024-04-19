@@ -1,0 +1,79 @@
+.center  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button1 {
+    background-color: #4596ff;
+    font-weight: 500;
+    border: #9963f0;
+    padding: 10px 20px; 
+    box-shadow: 1px 4px 8px 0 rgba(0,0,0,0.13);
+    text-transform: uppercase;
+    width: 100%;
+  }
+  
+  .button1:hover {
+    background-image: linear-gradient(to right, rgb(47, 96, 255) 0%, rgb(107, 124, 221) 39%, rgb(71, 157, 255) 100%);
+    box-shadow: 3px 4px rgba(0,0,0,0.17);
+  }
+
+  .button1:active {
+    box-shadow: 1px 2px rgba(2, 93, 153, 0.596);
+    transform: translateX(1px) translatey(1px);
+  }
+
+  .gradienttext {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    background-image: linear-gradient(to right, rgb(47, 96, 255) 0%, rgb(107, 124, 221) 39%, rgb(71, 157, 255) 100%);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.158);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .shadow {
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.164);
+  }
+
+  .prioritySelector {
+    display: flex;   
+    align-items: center; 
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(104, 104, 104);
+  }
+
+  .prioritySelector input[type="radio"] {
+    margin-right: 10px; 
+    width: 20px;
+    height: 20px; 
+  }
+  
+
+  .bg {
+    background-image: linear-gradient(to right, rgb(219, 230, 255) 0%,  rgb(219, 220, 255) 100%);
+  }
+
+  .input {
+    font-size: larger;
+    background-image: linear-gradient(to right, rgb(219, 230, 255) 0%,  rgb(219, 220, 255) 100%);
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.103);
+    border-color: rgba(194, 170, 193, 0.603);
+    font-size: 500;
+  }
+
+  .input:focus{
+    background-image: linear-gradient(to right, rgb(47, 96, 255) 0%, rgb(107, 124, 221) 39%, rgb(71, 157, 255) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-shadow: 3px 4px rgba(97, 62, 255, 0.781);
+    border-color: #7393fd;
+    font-weight: 600;
+  }
+  
+ 
